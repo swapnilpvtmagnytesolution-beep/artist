@@ -1,0 +1,6 @@
+INFO 2025-08-31 22:33:34,894 autoreload 21840 10664 Watching for file changes with StatReloader
+INFO 2025-08-31 22:50:53,920 autoreload 2600 31288 Watching for file changes with StatReloader
+WARNING 2025-08-31 22:56:19,424 log 2600 28280 Not Found: /
+WARNING 2025-08-31 22:56:19,424 basehttp 2600 28280 "GET /?ide_webview_request_time=1756661177526 HTTP/1.1" 404 3487
+WARNING 2025-08-31 22:56:24,952 log 2600 28280 Not Found: /@vite/client
+WARNING 2025-08-31 22:56:24,953 basehttp 2600 28280 "GET /@vite/client HTTP/1.1" 404 3502

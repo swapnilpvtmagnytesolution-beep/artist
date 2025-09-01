@@ -1,0 +1,44 @@
+# Django and Django REST Framework
+Django>=4.2.0,<5.0.0
+djangorestframework>=3.14.0
+djangorestframework-simplejwt>=5.2.2
+
+# Database
+psycopg2-binary>=2.9.5  # For PostgreSQL
+mysqlclient>=2.1.1  # For MySQL (uncomment if using MySQL)
+
+# Storage
+django-storages>=1.13.2
+boto3>=1.26.0  # For AWS S3
+# google-cloud-storage>=2.7.0  # For Google Cloud Storage (uncomment if using GCS)
+
+# Image Processing
+Pillow>=9.4.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# CORS
+django-cors-headers>=3.14.0
+
+# Deployment
+gunicorn>=20.1.0
+whitenoise>=6.4.0  # For serving static files
+
+# Email
+django-anymail>=9.1  # For SendGrid, Mailgun, etc.
+
+# Development
+ipython>=8.12.0
+django-debug-toolbar>=4.0.0
+
+# Documentation
+drf-yasg>=1.21.5  # Swagger/OpenAPI
+
+# Testing
+pytest>=7.3.1
+pytest-django>=4.5.2
+
+# Utilities
+requests>=2.28.2
+python-dateutil>=2.8.2
